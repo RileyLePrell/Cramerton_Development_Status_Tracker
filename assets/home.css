@@ -1,0 +1,92 @@
+/* ================= HOME PAGE STYLES ================= */
+.home-page {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: linear-gradient(to bottom right, #19584b, #6BB2A4);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Home Page Header */
+.home-header-container {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.welcome-text {
+    font-size: 45px;
+    font-weight: bold;
+    color: #D8B64D;
+}
+
+.tracker-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+}
+
+/* Category Boxes */
+.category-row {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    max-width: 90%;
+}
+
+.home-category-box {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 15px;
+    width: 275px;
+    height: 220px;
+    text-align: center;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.home-category-title {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Project Buttons */
+.home-project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 150px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.home-project-button {
+    display: block;
+    width: 90%;
+    margin-top: 6px;
+    padding: 8px;
+    background-color: #19584b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+    line-height: 1.4;
+    white-space: pre-line;
+}
+
+.home-project-button:hover {
+    background-color: #165448;
+}
